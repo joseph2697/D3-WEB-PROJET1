@@ -1,0 +1,253 @@
+body{
+  background: 	blue ;
+  font-family: 'Spectral', serif;
+
+}
+
+header {
+  color: #F7FE2E;
+}
+
+h1 {
+  font-family: 'Oswald', sans-serif;
+  font-size: ;
+color: ta couleur;
+
+}
+p {
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  color: white;
+  font-size: 20px;
+
+
+}
+
+
+h2 {
+  font-family: 'Oswald', sans-serif;font-size: ;
+  font-size: 3em;
+
+color: white;
+  text-align: center;
+  margin-bottom: 100px;
+
+}
+
+h3{
+  font-family: 'Oswald', sans-serif;font-size: ;
+font-size: 2em;
+  color: white;
+  text-align: center;
+}
+li{
+  color: white;
+}
+
+header {
+  min-height: 80vh;
+  background-image: url('images/bg-image-header.jpg');
+  background-repeat: no-repeat;
+
+  background-position: top center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white ;
+
+}
+
+.header-content {
+  background-image: url('images/bg-image-header');
+
+
+  background: rgba(170,170,170,0.4);
+
+
+
+}
+
+.header-content h1 {
+  font-size: 4em;
+  text-align: center;
+}
+
+.header-content p {
+  font-family:
+  font-size:
+  color:
+  text-align:
+}
+
+
+
+
+#section02 {
+  padding:
+
+  display: flex;
+  flex-direction: column;
+
+}
+
+#section03 {
+  padding:
+
+  display: flex;
+  flex-direction: column;
+}
+
+
+.bio {
+  padding-top: 20px;
+  color: #F7FE2E;
+
+}
+
+.photo {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+
+}
+
+.pack {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.photo ul {
+  padding: 0px;
+}
+
+.comp-content p {
+  color: white;
+
+
+}
+
+.identité {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: row;
+}
+
+
+
+.portfolio {
+
+}
+
+.project {
+margin: 30px;
+color: black;
+
+
+
+}
+
+
+.project img {
+
+object-fit: cover;
+overflow: hidden;
+}
+
+.Instagram {
+  display: flex;
+  flex-direction: column;
+  margin-right: 40px;
+  color: white;
+}
+.Instagram a {
+  color: white;
+text-decoration: none;
+padding-left: 20px;
+padding-bottom: 20px;
+
+}
+
+.Facebook {
+  display: flex;
+  flex-direction: column;
+
+}
+.Facebook a {
+  color: white;
+  text-decoration: none;
+  text-align: center;
+
+}
+
+.footer-content div {
+  text-align: center;
+}
+
+
+}
+
+.link-unactive {
+  text-decoration: none;
+  color: black;
+}
+
+
+
+
+
+.section02-content {
+  display: flex;
+  flex-direction: row;
+  justify-content:center;
+
+
+}
+.section02-content li {
+  font-size: 15px;
+  font-weight: bold;
+  font-family: 'Roboto', sans-serif;
+color:
+
+}
+.section03-content {
+  display: flex;
+  flex-direction: row;
+  justify-content:center;
+  flex-wrap: wrap;
+
+
+
+
+
+}
+.section03-content p {
+  font-family: 'Oswald', sans-serif;
+  font-size: 30px;
+
+}
+
+
+
+footer{
+  background: #D7DF01;
+
+
+}
