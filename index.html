@@ -16,16 +16,7 @@
 
 <body>
 
-
-
-
-
-
   <header>
-
-
-
-
 
     <div class="header-content">
       <h1 class="fancy_title">Joseph Secousse</h1>
@@ -67,13 +58,13 @@
 
             <h3>Photographie</h3>
           <li>
-          <a class='gallery' href='images/produit.png'>produit</a>
+          <a class='gallery4' href='images/produit.png'>produit</a>
           </li>
           <li>
-          <a class='gallery' href='images/mode.png'>portrait</a>
+          <a class='gallery4' href='images/mode.png'>portrait</a>
           </li>
           <li>
-          <a class='gallery' href='images/Mannequina.png'>Mannequinat</a>
+          <a class='gallery4' href='images/Mannequina.png'>Mannequinat</a>
           </li>
 
 
@@ -92,13 +83,13 @@
 
             <h3>Packaging</h3>
             <li>
-            <a class='gallery' href='images/cost.png'>marque low cost</a>
+            <a class='gallery3' href='images/cost.png'>marque low cost</a>
             </li>
             <li>
-            <a class='gallery' href='images/luxe.png'>produit de luxe</a>
+            <a class='gallery3' href='images/luxe.png'>produit de luxe</a>
             </li>
             <li>
-            <a class='gallery' href='images/vin.png'>étiquette de vin</a>
+            <a class='gallery3' href='images/vin.png'>étiquette de vin</a>
             </li>
 
 
@@ -116,13 +107,13 @@
 
             <h3>Identité</h3>
             <li>
-            <a class='gallery' href='images/carte.png'>carte de visite</a>
+            <a class='gallery2' href='images/carte.png'>carte de visite</a>
             </li>
             <li>
-            <a class='gallery' href='images/logo.png'>logo</a>
+            <a class='gallery2' href='images/logo.png'>logo</a>
             </li>
             <li>
-            <a class='gallery' href='images/foodtruck.png'>Habillage de food truck</a>
+            <a class='gallery2' href='images/foodtruck.png'>Habillage de food truck</a>
             </li>
 
         </ul>
@@ -213,6 +204,10 @@
   <script>
      jQuery(document).ready(function () {
        jQuery('a.gallery').colorbox({ opacity:0.5 , rel:'group1' });
+       jQuery('a.gallery2').colorbox({ opacity:0.5 , rel:'group2' });
+       jQuery('a.gallery3').colorbox({ opacity:0.5 , rel:'group3' });
+       jQuery('a.gallery4').colorbox({ opacity:0.5 , rel:'group4' })
+
      });
    </script>
 
