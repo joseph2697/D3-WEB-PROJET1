@@ -5,6 +5,10 @@
   <meta charset="utf-8">
   <title>Who I am?</title>
   <link rel="stylesheet" href="styles/main.css">
+  <link rel="stylesheet" href="styles/colorbox.css">
+  <script src="scripts/jquery-3.3.1.min.js"></script>
+  <script src="scripts/jquery.lettering.js"></script>
+  <script src="scripts/jquery.colorbox-min.js"></script>
 
   <link href="https://fonts.googleapis.com/css?family=Barlow+Condensed|Oswald|Spectral+SC" rel="stylesheet">
 
@@ -12,11 +16,10 @@
 
 <body>
 
-
   <header>
 
     <div class="header-content">
-      <h1>Secousse Joseph</h1>
+      <h1 class="fancy_title">Joseph Secousse</h1>
       <p>Try to understand who is joseph secousse</p>
     </div>
 
@@ -46,6 +49,7 @@
       <div class="photo">
 
         <div class="comp-content">
+
           <img src="images/a.png" alt=""/>
 
         </div>
@@ -53,10 +57,19 @@
         <ul>
 
             <h3>Photographie</h3>
-          <li>Produit</li>
-          <li>Portrait</li>
-          <li>Mannequinat</li>
+          <li>
+          <a class='gallery4' href='images/produit.png'>produit</a>
+          </li>
+          <li>
+          <a class='gallery4' href='images/mode.png'>portrait</a>
+          </li>
+          <li>
+          <a class='gallery4' href='images/Mannequina.png'>Mannequinat</a>
+          </li>
+
+
         </ul>
+
 
       </div>
 
@@ -69,9 +82,18 @@
         <ul>
 
             <h3>Packaging</h3>
-          <li>marque low cost</li>
-          <li>produit de luxe</li>
-          <li>étiquette de vin</li>
+            <li>
+            <a class='gallery3' href='images/cost.png'>marque low cost</a>
+            </li>
+            <li>
+            <a class='gallery3' href='images/luxe.png'>produit de luxe</a>
+            </li>
+            <li>
+            <a class='gallery3' href='images/vin.png'>étiquette de vin</a>
+            </li>
+
+
+
         </ul>
 
       </div>
@@ -84,9 +106,16 @@
         <ul>
 
             <h3>Identité</h3>
-          <li>carte de visite</li>
-          <li>logo</li>
-          <li>Habillage de food truck</li>
+            <li>
+            <a class='gallery2' href='images/carte.png'>carte de visite</a>
+            </li>
+            <li>
+            <a class='gallery2' href='images/logo.png'>logo</a>
+            </li>
+            <li>
+            <a class='gallery2' href='images/foodtruck.png'>Habillage de food truck</a>
+            </li>
+
         </ul>
 
       </div>
@@ -100,6 +129,7 @@
     <div class="section03-content">
 
       <div class="project">
+
         <img src="images/1.png" alt=""/>
         <p>Photographie de produit</p>
       </div>
@@ -125,6 +155,7 @@
       </div>
 
       <div class="project">
+
         <img src="images/2.png" alt="this is a portfolio item"/>
         <p>Logo et habillage de texte</p>
       </div>
@@ -133,6 +164,7 @@
   </section>
 
   <footer>
+
 
     <h2>Contact</h2>
     <p>07 77 30 11 43
@@ -149,13 +181,36 @@
         <a class="link-unactive" href="https://www.facebook.com/joseph.secousse">Facebook</a>
       </div>
 
-
+      <a class='gallery' href='images/1.png'>Photo_1</a>
+     <a class='gallery' href='images/2.png'>Photo_2</a>
+     <a class='gallery' href='images/image03.jpg'>Photo_3</a>
+      <a class='gallery' href='images/image04.jpg'>Photo_4</a>
 
     </div>
 
   </footer>
 
   </div>
+
+
+  <script>
+    $(document).ready(function() {
+    $(".fancy_title").lettering();
+    });
+  </script>
+
+
+
+  <script>
+     jQuery(document).ready(function () {
+       jQuery('a.gallery').colorbox({ opacity:0.5 , rel:'group1' });
+       jQuery('a.gallery2').colorbox({ opacity:0.5 , rel:'group2' });
+       jQuery('a.gallery3').colorbox({ opacity:0.5 , rel:'group3' });
+       jQuery('a.gallery4').colorbox({ opacity:0.5 , rel:'group4' })
+
+     });
+   </script>
+
 </body>
 
 </html>

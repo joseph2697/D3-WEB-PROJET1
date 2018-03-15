@@ -1,8 +1,27 @@
+@import url('https://fonts.googleapis.com/css?family=Abel|Anton|Fjalla+One|Nanum+Gothic|PT+Sans+Narrow|Poppins|Ubuntu|Ubuntu+Condensed|Yanone+Kaffeesatz');
+
+
 body{
   background: 	blue ;
   font-family: 'Spectral', serif;
 
 }
+
+
+
+
+.char3 {
+  font-size: 2em;
+  font-family: Nanum Gothic ;
+}
+
+.char4 {
+  font-size: 3em;
+  font-family: PT Sans Narrow ;
+}
+
+
+
 
 header {
   color: #F7FE2E;
@@ -12,7 +31,15 @@ h1 {
   font-family: 'Oswald', sans-serif;
 
 
+
 }
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+
 p {
   font-family: 'Roboto', sans-serif;
   text-align: center;
@@ -231,12 +258,17 @@ color:
   flex-direction: row;
   justify-content:center;
   flex-wrap: wrap;
-
-
-
-
-
 }
+
+
+
+
+
+
+
+
+
+
 .section03-content p {
   font-family: 'Oswald', sans-serif;
   font-size: 30px;
